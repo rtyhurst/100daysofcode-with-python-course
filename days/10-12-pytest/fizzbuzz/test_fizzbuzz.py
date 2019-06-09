@@ -1,6 +1,6 @@
 import pytest
 
-from fizzbuzz import fizzbuzz
+from .fizzbuzz import fizzbuzz
 
 @pytest.mark.parametrize("arg, ret",[
     (1, 1),
